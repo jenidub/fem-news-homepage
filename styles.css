@@ -44,6 +44,8 @@ body {
 
 .navbar-items {
     display: none;
+    width: 90%;
+    height: 300px;
 }
 
 .featured-article {
@@ -96,6 +98,7 @@ body {
 
 .new-content {
     background-color: #00001A;
+    margin-bottom: 64px;
 }
 
 .new-content-blurb {
@@ -134,6 +137,7 @@ body {
 .home-page-articles {
     display: flex;
     flex-direction: column;
+    margin-bottom: 40px;
 }
 
 .hp-article {
@@ -173,4 +177,9 @@ body {
     font-weight: 400;
     line-height: 26px;
     margin: 0;
+}
+
+.navbar-items {
+    background-color: black;
+    width: 100%;
 }

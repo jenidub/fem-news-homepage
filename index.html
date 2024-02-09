@@ -18,7 +18,7 @@
 <body>
   <section class="navbar">
     <div class="navbar-logo"><img src="./assets/images/logo.svg" alt=""></div>
-    <div class="navbar-collapse-icon"><img src="./assets/images/icon-menu.svg" alt=""></div>
+    <div class="navbar-collapse-icon" id="menu-show"><img src="./assets/images/icon-menu.svg" alt=""></div>
     <div class="navbar-items">
       <ul>
         <li>Home</li>
@@ -97,5 +97,13 @@
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Your Name Here</a>.
   </div>
+  <script>
+    menu_icon = document.querySelector(".navbar-collapse-icon");
+    navbar_items = document.querySelector(".navbar-items");
+
+    menu_icon.addEventListener("click", function(){
+      menu_icon.src = "/Users/missjeni/jenidub-code-projects/FE Mentor Projects/news-homepage-main/assets/images/icon-menu-close.svg";
+    })
+  </script>
 </body>
 </html>
